@@ -1,0 +1,9 @@
+.footer__column {
+  margin: 0;
+}
+
+.footer__column:nth-of-type(2) {
+  margin-right: 250px;
+}
+
+.footer__column:last-of-type {}
