@@ -4,5 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 217px;
+  min-height: 217px;
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    position: absolute;
+    opacity: 0;
+  }
 }
