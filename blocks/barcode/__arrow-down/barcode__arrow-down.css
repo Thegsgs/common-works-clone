@@ -1,8 +1,9 @@
 .barcode__arrow-down {
   margin: 0 auto;
+  width: 40px;
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   transition: transform .2s linear;
 }
 
