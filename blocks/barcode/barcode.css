@@ -14,5 +14,6 @@
 @media screen and (max-width: 550px) {
   .barcode {
     min-height: calc(100vh - 340px);
+    justify-content: flex-start;
   }
 }
