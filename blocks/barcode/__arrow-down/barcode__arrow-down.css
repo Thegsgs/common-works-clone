@@ -1,0 +1,11 @@
+.barcode__arrow-down {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  transition: transform .2s linear;
+}
+
+.barcode__arrow-down:hover {
+  transform: translateY(3px);
+}

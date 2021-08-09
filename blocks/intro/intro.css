@@ -1,0 +1,8 @@
+.intro {
+  margin: 0;
+  padding: 210px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 217px;
+}

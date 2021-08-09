@@ -1,0 +1,6 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 215px 40px 270px;
+}

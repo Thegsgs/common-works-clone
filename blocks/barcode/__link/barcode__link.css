@@ -1,0 +1,30 @@
+.barcode__link {
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #4438ff;
+}
+
+.barcode__link:hover {
+  color: white;
+}
+
+.barcode__link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  transition: opacity .3s ease;
+  background-color: #4438ff;
+  opacity: 0;
+  z-index: 1;
+}
+
+.barcode__link:hover:after {
+  opacity: 1;
+}

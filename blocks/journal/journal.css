@@ -1,0 +1,11 @@
+.journal {
+  margin: 0;
+  height: 500px;
+  background-color: #4438ff;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

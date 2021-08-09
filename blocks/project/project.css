@@ -1,0 +1,6 @@
+.project {
+  max-width: calc(600px/1320px * 100%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

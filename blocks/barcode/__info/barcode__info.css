@@ -1,0 +1,12 @@
+.barcode__info {
+  margin: 0;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
