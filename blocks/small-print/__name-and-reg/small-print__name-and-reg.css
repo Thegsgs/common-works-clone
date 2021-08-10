@@ -1,0 +1,5 @@
+.small-print__name-and-reg {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}

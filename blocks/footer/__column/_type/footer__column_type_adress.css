@@ -1,0 +1,9 @@
+.footer__column_type_address {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .footer__column_type_address {
+    margin-right: 0;
+  }
+}

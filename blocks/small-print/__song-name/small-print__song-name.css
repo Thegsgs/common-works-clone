@@ -1,13 +1,8 @@
-.small-print__text {
+.small-print__song-name {
   margin: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   font-weight: 400;
-}
-
-@media screen and (max-width: 550px) {
-  .small-print__text {
-    font-size: 12px;
-  }
+  animation: scrolling 15s linear infinite;
 }

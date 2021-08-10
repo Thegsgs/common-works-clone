@@ -6,18 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Common Works</title>
+  <title>UnCommon Works</title>
   <link rel="icon" type="image/png" href="./images/favicon.png" />
 </head>
 
 <body class="page">
   <div class="content">
     <section class="header">
-      <p class="header__name">UnCommon Works</p>
+      <a class="header__name" href="https://github.com/Thegsgs?tab=repositories" target="__blank">UnCommon Works</a>
       <nav class="header__list">
-        <p class="header__link">Projects</p>
-        <p class="header__link">Studio</p>
-        <p class="header__link">Journal</p>
+        <a class="header__link" href="#projects">Projects</a>
+        <a class="header__link" href="https://github.com/Thegsgs?tab=repositories" target="__blank">Studio</a>
+        <a class="header__link" href="#journal">Journal</a>
       </nav>
     </section>
     <section class="barcode">
@@ -27,12 +27,12 @@
           <p class="barcode__link-text">i</p>
         </a>
       </div>
-      <img class="barcode__arrow-down" src="./images/down-arrow.png" alt="arrow down">
+      <a href="#page-intro"><img class="barcode__arrow-down" src="./images/down-arrow.png" alt="arrow down"></a>
     </section>
-    <section class="intro">
-      <h1 class="intro__text">UnCommon Works is a Design and Technology studio that creates meaningful, lasting experiences through playful interactions and rigorous design thinking. <u>More about the studio &nearr;</u></h1>
+    <section class="intro" id="page-intro">
+      <h1 class="intro__text">UnCommon Works is a Design and Technology studio that creates meaningful, lasting experiences through playful interactions and rigorous design thinking. <a class="intro__link" href="https://github.com/Thegsgs?tab=repositories" target="__blank">More about the studio &nearr;</a></h1>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="project">
         <div class="project__image-container">
           <img class="project__image" src="./images/pictures-of-the-floating-world-thumb.jpeg">
@@ -90,43 +90,64 @@
         <p class="project__subtitle">Karaoke with randomly generated sound-alike lyrics</p>
       </div>
     </section>
-    <section class="journal">
+    <section class="journal" id="journal">
       <p class="journal__text">Latest Journal</p>
-      <h2 class="journal__journal-name">Recycling Rebrand</h2>
+      <a class="journal__link" href="#">
+        <h2 class="journal__journal-name">Recycling Rebrand</h2>
+      </a>
     </section>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column">
-          <h3 class="footer__column-heading">Address</h3>
-          <p class="footer__column-text">
-            UnCommon Works
-            <br> Vault 7, Someversity
-            <br> Somewhere Building
-            <br> String, Tel-Aviv
-            <br> GR3T SKT
-          </p>
+        <div class="footer__columns-pair">
+          <div class="footer__column footer__column_type_address">
+            <h3 class="footer__column-heading">Address</h3>
+            <p class="footer__column-text">
+              UnCommon
+              <br> Vault 7, Someversity
+              <br> Some Building
+              <br> String, Tel-Aviv
+              <br> GR3T SKT
+            </p>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Get in Touch</h3>
+            <p class="footer__column-text">info@uncommonworks.co.il</p>
+            <p class="footer__column-text footer__column-text_type_number">0505 5 55-55-55</p>
+          </div>
         </div>
-        <div class="footer__column">
-          <h3 class="footer__column-heading">Get in Touch</h3>
-          <p class="footer__column-text">info@uncommonworks.co.il</p>
-          <p class="footer__column-text footer__column-text_type_number">0505 5 55-55-55</p>
-        </div>
-        <div class="footer__column">
+        <div class="footer__column footer__column_type_social">
           <h3 class="footer__column-heading footer__column-heading_type_follow">Follow</h3>
-          <img class="footer__social-icon" src="./images/twitter-icon.png" alt="twitter icon">
-          <img class="footer__social-icon" src="./images/instagram-icon.png" alt="instagram icon">
-          <img class="footer__social-icon" src="./images/vimeo-icon.png" alt="vimeo icon">
-          <img class="footer__social-icon" src="./images/linkedin-icon.png" alt="linkedin icon">
+          <div class="footer__column-icon-row">
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/twitter-icon.png" alt="twitter icon"></a>
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram-icon.png" alt="instagram icon"></a>
+            <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vimeo-icon.png" alt="vimeo icon"></a>
+            <a class="footer__column-link" href="https://www.linkedin.com/in/simon-sherbinin-31999818b/" target="__blank"><img class="footer__social-icon" src="./images/linkedin-icon.png" alt="linkedin icon"></a>
+          </div>
         </div>
       </div>
     </footer>
     <div class="small-print">
-      <p class="small-print__text">&#169; Simon S. 2021</p>
-      <p class="small-print__text">REG NO. 5555</p>
-      <p class="small-print__text">&#9835; Playing in the studio:</p>
+      <div class="small-print__container">
+        <div class="small-print__name-and-reg">
+          <p class="small-print__text small-print__text_type_name">&#169; Simon S. 2021</p>
+          <p class="small-print__text small-print__text_type_reg">REG NO. 5555</p>
+        </div>
+        <div class="small-print__scrolling-music">
+          <p class="small-print__text small-print__text_type_music">&#9835; Playing in the studio:</p>
+          <div class="small-print__scroll-container">
+            <p class="small-print__song-name">New Planets New Undoings – Liars</p>
+          </div>
+        </div>
+
+      </div>
+      <p class="small-print__rock-hand">&#129304;</p>
     </div>
   </div>
-
+  <div class="to-top">
+    <a class="to-top__link" href="#">
+      <img class="to-top__image" src="./images/white-up-icon.jpg">
+    </a>
+  </div>
 </body>
 
 </html>

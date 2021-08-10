@@ -1,0 +1,17 @@
+.journal__link {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  transition: opacity .2s ease;
+}
+
+.journal__link:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 550px) {
+  .journal__link {
+    width: 100%;
+  }
+}

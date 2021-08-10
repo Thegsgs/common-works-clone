@@ -1,0 +1,6 @@
+.small-print__rock-hand {
+  margin: 0;
+  grid-area: rock-hand;
+  opacity: 0;
+  transition: opacity 1s ease;
+}

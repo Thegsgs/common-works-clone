@@ -1,15 +1,18 @@
 .small-print {
   margin: 0;
-  padding: 0 40% 0 13.5%;
+  padding: 0;
   min-height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 550px) {
   .small-print {
     flex-wrap: wrap;
-    padding: 0 40px;
   }
+}
+
+.small-print:hover .small-print__rock-hand {
+  opacity: 1;
 }

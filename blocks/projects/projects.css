@@ -9,7 +9,7 @@
 @media screen and (max-width: 550px) {
   .projects {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 100px 20px 270px;
+    grid-gap: 30px;
+    padding: 100px 20px 50px;
   }
 }

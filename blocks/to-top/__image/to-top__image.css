@@ -1,0 +1,8 @@
+.to-top__image {
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  border: solid black;
+  align-self: center;
+}

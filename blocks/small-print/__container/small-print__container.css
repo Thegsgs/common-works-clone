@@ -1,0 +1,17 @@
+.small-print__container {
+  width: 80%;
+  max-width: 1255px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  .small-print__container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "name reg" "music rock-hand";
+    grid-gap: 0;
+  }
+}
