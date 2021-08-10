@@ -10,4 +10,8 @@
   .footer__column-heading {
     text-align: center;
   }
+  .footer__column-heading_type_follow {
+    position: absolute;
+    opacity: 0;
+  }
 }

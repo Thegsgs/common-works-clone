@@ -6,3 +6,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 550px) {
+  .small-print {
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+}
