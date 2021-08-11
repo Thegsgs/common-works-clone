@@ -16,6 +16,9 @@
 @media screen and (max-width: 680px) {
   .header__link {
     font-size: 27px;
+    width: 100%;
+    border-bottom: solid 2px;
+    padding: 4px;
     margin: 0 0 32px;
   }
 }
