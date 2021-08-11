@@ -1,0 +1,10 @@
+.clients {
+  width: 100%;
+  min-height: 500px;
+  padding: 70px 0;
+  background-color: #e7e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

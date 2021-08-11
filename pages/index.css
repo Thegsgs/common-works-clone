@@ -48,3 +48,6 @@
 @import url(../blocks/to-top/to-top.css);
 @import url(../blocks/to-top/__image/to-top__image.css);
 @import url(../blocks/to-top/__link/to-top__link.css);
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__images-container/clients__images-container.css);
+@import url(../blocks/clients/__image/clients__image.css);
