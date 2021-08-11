@@ -11,9 +11,8 @@
   align-items: center;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .barcode {
     min-height: calc(100vh - 340px);
-    justify-content: flex-start;
   }
 }

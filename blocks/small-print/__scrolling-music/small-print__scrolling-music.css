@@ -1,5 +1,10 @@
 .small-print__scrolling-music {
   display: flex;
-  align-items: center;
-  width: 50%;
+  width: 55%;
+}
+
+@media screen and (max-width: 680px) {
+  .small-print__scrolling-music {
+    width: 100%;
+  }
 }

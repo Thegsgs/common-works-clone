@@ -1,12 +1,13 @@
 .barcode__arrow-down {
-  margin: 0 auto;
+  margin: 0;
   width: 38px;
   padding: 0;
   position: absolute;
   bottom: 18px;
   transition: transform .2s linear;
+  transform: translateX(-50%);
 }
 
 .barcode__arrow-down:hover {
-  transform: translateY(3px);
+  transform: translate(-50%, 5px);
 }

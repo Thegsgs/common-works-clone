@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .footer__column {
     margin: 0 0 50px;
   }

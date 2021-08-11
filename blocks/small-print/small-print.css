@@ -4,15 +4,14 @@
   min-height: 50px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-}
-
-@media screen and (max-width: 550px) {
-  .small-print {
-    flex-wrap: wrap;
-  }
 }
 
 .small-print:hover .small-print__rock-hand {
   opacity: 1;
+}
+
+@media screen and (max-width: 680px) {
+  .small-print:hover .small-print__rock-hand {
+    opacity: 0;
+  }
 }

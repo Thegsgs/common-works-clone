@@ -1,0 +1,4 @@
+.footer__colum-text_type_number:hover p.new-label:after {
+  content: 'ADD';
+  position: relative;
+}

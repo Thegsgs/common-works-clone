@@ -13,7 +13,7 @@
   opacity: .7;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .header__link {
     font-size: 27px;
     margin: 0 0 32px;

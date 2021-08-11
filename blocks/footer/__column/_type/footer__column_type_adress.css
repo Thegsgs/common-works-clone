@@ -2,7 +2,7 @@
   margin-right: 40px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .footer__column_type_address {
     margin-right: 0;
   }

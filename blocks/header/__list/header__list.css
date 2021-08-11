@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .header__list {
     margin: 32px 0;
     flex-direction: column;

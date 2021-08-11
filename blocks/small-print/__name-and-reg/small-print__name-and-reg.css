@@ -1,5 +1,12 @@
 .small-print__name-and-reg {
-  width: 33%;
+  margin: 0;
+  width: 31%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 680px) {
+  .small-print__name-and-reg {
+    width: 70%;
+  }
 }

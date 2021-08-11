@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .journal {
     min-height: 330px;
     margin-bottom: 35px;

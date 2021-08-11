@@ -4,3 +4,9 @@
   opacity: 0;
   transition: opacity 1s ease;
 }
+
+@media screen and (max-width: 680px) {
+  .small-print__rock-hand {
+    position: absolute;
+  }
+}

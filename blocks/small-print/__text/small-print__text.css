@@ -1,13 +1,14 @@
 .small-print__text {
   margin: 0;
+  min-width: max-content;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.6;
   font-weight: 400;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .small-print__text {
-    font-size: 12px;
+    font-size: 11px;
   }
 }

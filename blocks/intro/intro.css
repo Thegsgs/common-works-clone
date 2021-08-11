@@ -7,7 +7,7 @@
   min-height: 217px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .intro {
     position: absolute;
     opacity: 0;
