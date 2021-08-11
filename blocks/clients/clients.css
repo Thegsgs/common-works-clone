@@ -1,7 +1,7 @@
 .clients {
   width: 100%;
   min-height: 500px;
-  padding: 70px 0;
+  padding: 0;
   background-color: #e7e3e3;
   display: flex;
   justify-content: center;
